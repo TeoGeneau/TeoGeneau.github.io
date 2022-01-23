@@ -454,6 +454,66 @@ img.emoji {
 <style data-styles="breezycv-theme-skills-css" type="text/css">#skill-skills61ec759269570 .skill-percentage { width: 90%; background-color: #0BA376; } #skill-skills61ec759269570.skill-container { border-color: #0BA376; } #skill-skills61ec759269577 .skill-percentage { width: 65%; background-color: #0BA376; } #skill-skills61ec759269577.skill-container { border-color: #0BA376; } #skill-skills61ec75926957b .skill-percentage { width: 80%; background-color: #0BA376; } #skill-skills61ec75926957b.skill-container { border-color: #0BA376; } #skill-skills61ec75926957f .skill-percentage { width: 90%; background-color: #0BA376; } #skill-skills61ec75926957f.skill-container { border-color: #0BA376; } #skill-skills61ec7592698ff .skill-percentage { width: 95%; background-color: #0BA376; } #skill-skills61ec7592698ff.skill-container { border-color: #0BA376; } #skill-skills61ec759269904 .skill-percentage { width: 85%; background-color: #0BA376; } #skill-skills61ec759269904.skill-container { border-color: #0BA376; } #skill-skills61ec759269908 .skill-percentage { width: 100%; background-color: #0BA376; } #skill-skills61ec759269908.skill-container { border-color: #0BA376; } #skill-skills61ec75926990c .skill-percentage { width: 75%; background-color: #0BA376; } #skill-skills61ec75926990c.skill-container { border-color: #0BA376; } #skill-skills61ec759269910 .skill-percentage { width: 90%; background-color: #0BA376; } #skill-skills61ec759269910.skill-container { border-color: #0BA376; } </style><style data-styles="breezycv-theme-skills-css" type="text/css">#skill-skills61ec759269570 .skill-percentage { width: 90%; background-color: #0BA376; } #skill-skills61ec759269570.skill-container { border-color: #0BA376; } #skill-skills61ec759269577 .skill-percentage { width: 65%; background-color: #0BA376; } #skill-skills61ec759269577.skill-container { border-color: #0BA376; } #skill-skills61ec75926957b .skill-percentage { width: 80%; background-color: #0BA376; } #skill-skills61ec75926957b.skill-container { border-color: #0BA376; } #skill-skills61ec75926957f .skill-percentage { width: 90%; background-color: #0BA376; } #skill-skills61ec75926957f.skill-container { border-color: #0BA376; } #skill-skills61ec7592698ff .skill-percentage { width: 95%; background-color: #0BA376; } #skill-skills61ec7592698ff.skill-container { border-color: #0BA376; } #skill-skills61ec759269904 .skill-percentage { width: 85%; background-color: #0BA376; } #skill-skills61ec759269904.skill-container { border-color: #0BA376; } #skill-skills61ec759269908 .skill-percentage { width: 100%; background-color: #0BA376; } #skill-skills61ec759269908.skill-container { border-color: #0BA376; } #skill-skills61ec75926990c .skill-percentage { width: 75%; background-color: #0BA376; } #skill-skills61ec75926990c.skill-container { border-color: #0BA376; } #skill-skills61ec759269910 .skill-percentage { width: 90%; background-color: #0BA376; } #skill-skills61ec759269910.skill-container { border-color: #0BA376; } </style>
 
 <script src="https://kit.fontawesome.com/a8076d1b82.js" crossorigin="anonymous"></script>
+	
+	
+	
+	
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+
+<script>
+  /* paste this in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+
+  /* customize formbutton here*/     
+  formbutton("create", {
+    theme: "classic",
+    action: "https://formspree.io/f/xrgjedzv",
+    title: "&#128075; Envie de prendre contact ?",
+    description : "Ecrivez-moi en quelques lignes📋",
+    
+    fields: [{
+      name: "name",
+      type: "text",
+      label: "👤 Nom :",
+      required: true,
+      placeholder: "Votre nom"
+    },
+      { 
+        type: "email", 
+        label: "@ Email :", 
+        name: "email",
+        required: true,
+        placeholder: "VotreEmail@Email.com"
+      },
+      {
+        type: "textarea",
+        label: "&#9993; Message :",
+        name: "message",
+        required: true,
+        placeholder: "Votre message ?",
+      },
+      { type: "submit"
+      }      
+    ],
+    styles: {
+      title: {
+        backgroundColor: "SEAGREEN",
+        letterSpacing: "0.05em"
+      },
+      description: {
+        backgroundColor: "WHITE"
+      },
+      button: {
+        backgroundColor: "SEAGREEN"
+      }
+    },
+    initiallyVisible: true
+  });
+</script>	
+	
+	
+	
+	
 </head>
 
 <body data-rsssl="1" class="home page-template page-template-page-templates page-template-template-breezycv-vcard page-template-page-templatestemplate-breezycv-vcard-php page page-id-6 wp-embed-responsive masthead-fixed full-width grid elementor-default elementor-kit-13 e--ua-firefox" data-elementor-device-mode="desktop">
@@ -1827,7 +1887,7 @@ ultrices.</p>
 				<div class="elementor-element elementor-element-afbe591 elementor-widget elementor-widget-breezycv-contact-form-simple" data-id="afbe591" data-element_type="widget" data-widget_type="breezycv-contact-form-simple.default">
 				<div class="elementor-widget-container">
 			
-			<form id="contact_form_61ec75927f82b" class="contact-form" action="#" method="post" novalidate="true">
+			<form action="https://formspree.io/f/xrgjedzv" method="POST">
 
 				<div class="messages"></div>
 
@@ -1835,21 +1895,21 @@ ultrices.</p>
 					<div class="fields clearfix">
 						<div class="left-column">
 							<div class="form-group form-group-with-icon">
-								<input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Name is required.">
+								<input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Nom requis.">
 								<label>Nom</label>
 								<div class="form-control-border"></div>
 								<div class="help-block with-errors"></div>
 							</div>
 
 							<div class="form-group form-group-with-icon">
-								<input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+								<input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Une adresse mail valide est requise.">
 								<label>Adresse Mail</label>
 								<div class="form-control-border"></div>
 								<div class="help-block with-errors"></div>
 							</div>
 
 							<div class="form-group form-group-with-icon">
-								<input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="Subject is required.">
+								<input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="Un sujet est requis.">
 								<label>Sujet</label>
 								<div class="form-control-border"></div>
 								<div class="help-block with-errors"></div>
@@ -1857,7 +1917,7 @@ ultrices.</p>
 						</div>
 						<div class="right-column">
 							<div class="form-group form-group-with-icon">
-								<textarea id="form_message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+								<textarea id="form_message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="Veuillez me laisser un message."></textarea>
 								<label>Message</label>
 								<div class="form-control-border"></div>
 								<div class="help-block with-errors"></div>
